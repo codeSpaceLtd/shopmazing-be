@@ -30,6 +30,14 @@ Our product will allow small businesses able to compete more in the global marke
 A retail store template front that will allow a user to browse products, add them to a cart, view/edit their cart, and checkout which will clear the cart/update inventory levels.
 A backend to the store that will allow a admin to edit users and inventory. Including add/delete funtionality.
 
+### Stretch Goals
+A working checkout system.
+A guest cart that saves to local storage even when redirected to login.
+A wishlist function
+A rating system for items (even though they are fake :( )
+Front page render in sections, based on category or item type. Possibly include a "popular item" tag.
+
+
 ## Functional Requirements
 
 1. A retail store template front that will allow a user to browse products
@@ -42,7 +50,7 @@ A backend to the store that will allow a admin to edit users and inventory. Incl
 ![DataFlowImg1](./img/workFlow2.png)
 
 ## Non-Functional Requirements
-1. Security
+1. Secturity
     * We are using auth0 for secure login and will be getting data about the user from auth0 instead of storing in sate. We want the end user of the store to have a custom experience tailored to their account.
 2. Usability
     * A clear and functional UI that works how you would expect it to as a customer. To allow filtering via either text or category, allowing customers to easily find what they are wanting.
